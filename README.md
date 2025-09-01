@@ -75,7 +75,7 @@ The solver returns temperature profiles.
 These are plotted against the exchanger length to show the temperature variation.
 
 In addition, the profiles are mapped onto coloured cylinders representing the hot and cold pipes, 
-with a temperature colourmap for intuitive visualszation.
+with a temperature colourmap for intuitive visualisation.
 
 Counter-current exchangers typically achieve a greater temperature change in the cold stream 
 and higher effectiveness.
