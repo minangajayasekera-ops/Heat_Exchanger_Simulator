@@ -55,11 +55,12 @@ x    = length coordinate along exchanger [m]
 
 **Boundary Conditions**
 
-Co-current (both enter at x=0)
-'''
+Co-current (both enter at x=0):
+```
 Th(0) = Th_in and Tc(0) = Tc_in
 
 Counter-current (hot stream enter at x=0, cold stream at x=L):
+```
 Th(0) = Th_in and Tc(L) = Tc_in
 
 **Numerical Method**
