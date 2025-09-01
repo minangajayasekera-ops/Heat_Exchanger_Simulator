@@ -27,23 +27,23 @@ This project simulates a double-pipe heat exchanger in both counter-current and 
 **Governing Equations**
 
 Hot stream:
-dTh/dx = -(U * dA/dx) / (m_h * cp_h) * (Th - Tc)
+dTh/dx = -(U * dA/dx) / (mh * cph) * (Th - Tc)
 
 Cold stream:
-dTc/dx = (U * dA/dx) / (m_c * cp_c) * (Th - Tc) **(with a nagative sign for counter-current)**
+dTc/dx = (U * dA/dx) / (mc * cpc) * (Th - Tc) **(with a nagative sign for counter-current)**
 
 where:
 U    = overall heat transfer coefficient [W/m²·K]  
 A    = heat transfer area [m²]  
 L    = heat exchanger length [m]  
 
-m_h  = hot stream mass flow rate [kg/s]  
-cp_h = hot stream specific heat capacity [J/kg·K]  
+mh  = hot stream mass flow rate [kg/s]  
+cph = hot stream specific heat capacity [J/kg·K]  
 Th   = hot stream temperature [°C]  
 Th_in = hot stream inlet temperature [°C]  
 
-m_c  = cold stream mass flow rate [kg/s]  
-cp_c = cold stream specific heat capacity [J/kg·K]  
+mc  = cold stream mass flow rate [kg/s]  
+cpc = cold stream specific heat capacity [J/kg·K]  
 Tc   = cold stream temperature [°C]  
 Tc_in = cold stream inlet temperature [°C]  
 
@@ -51,13 +51,11 @@ x    = length coordinate along exchanger [m]
 
 **Boundary Conditions**
 
-Co-current (both enter at x=0)
-Th(0) = Th_in
-Tc(0) = Tc_in
+Co-current (both enter at x=0):
+Th(0) = Th_in and Tc(0) = Tc_in
 
-Counter-current (hot stream enter at x=0, cold stream at x=L)
-Th(0) = Th_in
-Tc(L) = Tc_in
+Counter-current (hot stream enter at x=0, cold stream at x=L):
+Th(0) = Th_in and Tc(L) = Tc_in
 
 **Numerical Method**
 
@@ -121,5 +119,6 @@ jupyter notebook
 
 
 Developed by **Minanga Jayasekera**
+
 First-year Chemical Engineering student @ Imperial College London
 
