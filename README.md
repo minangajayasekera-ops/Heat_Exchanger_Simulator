@@ -34,7 +34,7 @@ Hot stream:
 dTh/dx = -(U * dA/dx) / (mh * cph) * (Th - Tc)
 
 Cold stream:
-dTc/dx = (U * dA/dx) / (mc * cpc) * (Th - Tc) **(with a nagative sign for counter-current)**
+dTc/dx = (U * dA/dx) / (mc * cpc) * (Th - Tc) (with a nagative sign for counter-current)
 
 where:
 U    = overall heat transfer coefficient [W/m²·K]  
