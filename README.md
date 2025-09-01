@@ -20,7 +20,7 @@ A Python GUI application to simulate and visualise counter-current and co-curren
 - Interactive Tkinter GUI to update parameters 
 
 ---
-# Technical Background
+## Technical Background
 
 This project simulates a double-pipe heat exchanger in both counter-current and co-current flow configurations. The model is based on solving the coupled differential energy balances for the hot and cold streams along the exchanger length.
 
@@ -85,7 +85,7 @@ Co-current exchangers have a steeper gradient at the inlet but a smaller mean te
 
 ---
 
-# Installation
+## Installation
 Clone this repository and install required packages. Run this in your terminal:
 
 ```bash
@@ -114,7 +114,7 @@ jupyter notebook
 
 ---
 
-# Future Improvements 
+## Future Improvements 
 - Including NTU-effectiveness
 - Transient (unsteady state) behaviour
 - Other arrangements like Shell and Tube heat exchangers
