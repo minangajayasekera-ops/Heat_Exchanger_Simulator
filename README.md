@@ -1,6 +1,7 @@
 # Heat Exchanger Simulation
 
 A Python GUI application to simulate and visualise counter-current and co-current heat exchangers. This tool allows users to explore how hot and cold fluid streams exchange heat along a heat exchanger and see the results in temperature profiles and pipe schematics.
+
 **Example (counter-current) below:**
 
 <img width="955" height="563" alt="image" src="https://github.com/user-attachments/assets/2cdd35d2-2901-4add-963d-fed622c49774" />
