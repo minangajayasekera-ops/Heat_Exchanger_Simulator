@@ -29,7 +29,7 @@ A Python GUI application to simulate and visualise counter-current and co-curren
 This project simulates a double-pipe heat exchanger in both counter-current and co-current flow configurations. The model is based on solving the coupled differential energy balances for the hot and cold streams along the exchanger length.
 
 **Governing Equations**
-
+```
 Hot stream:
 dTh/dx = -(U * dA/dx) / (mh * cph) * (Th - Tc)
 
@@ -52,17 +52,17 @@ Tc   = cold stream temperature [°C]
 Tc_in = cold stream inlet temperature [°C]  
 
 x    = length coordinate along exchanger [m]  
-
-**Boundary Conditions**
-
-Co-current (both enter at x=0):
 ```
+**Boundary Conditions**
+```
+Co-current (both enter at x=0):
+
 Th(0) = Th_in and Tc(0) = Tc_in
 
 Counter-current (hot stream enter at x=0, cold stream at x=L):
-```
-Th(0) = Th_in and Tc(L) = Tc_in
 
+Th(0) = Th_in and Tc(L) = Tc_in
+```
 **Numerical Method**
 
 For co-current flow (both conditions at x=0), the problem is an Initial Value Problem (IVP), 
