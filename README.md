@@ -4,7 +4,7 @@ A Python GUI application to simulate and visualise counter-current and co-curren
 
 **Example (counter-current) below:**
 
-<img width="955" height="563" alt="image" src="https://github.com/user-attachments/assets/2cdd35d2-2901-4add-963d-fed622c49774" />
+<img width="959" height="564" alt="image" src="https://github.com/user-attachments/assets/e22e0da1-debd-4760-828d-4e0dc0c90095" />
 
 ---
 
@@ -113,6 +113,10 @@ jupyter notebook
 - Then open Heat_exchanger_GUI.ipynb and run the code.
 - When the Tkinter GUI pops up input your values and select your configuration.
 - Click "update plot" to see the temperature profiles with the schematic of the pipes.
+
+**Example (co-current)**
+
+<img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/f074fd04-661d-4b4a-b1fb-76c18eece0b4" />
 
 ---
 
